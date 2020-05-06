@@ -25,6 +25,7 @@ namespace csharp_practice
             {
                 new Fib().toCalcFib();
             }
+            new Hw1().Calc();
             Console.ReadKey();
         }
 
