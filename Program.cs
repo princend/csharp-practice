@@ -26,6 +26,8 @@ namespace csharp_practice
                 new Fib().toCalcFib();
             }
             new Hw1().Calc();
+            new Hw2().logList();
+            new Hw2().getFibList();
             Console.ReadKey();
         }
 
