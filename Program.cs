@@ -10,6 +10,7 @@ namespace csharp_practice
             Console.WriteLine($"請選擇想使用算式");
             Console.WriteLine($"1.圓面積");
             Console.WriteLine($"2.兩數總和");
+            Console.WriteLine($"3.費式數列");
             double selectedChoice = Convert.ToDouble(Console.ReadLine());
 
             if (selectedChoice == 1)
@@ -19,6 +20,10 @@ namespace csharp_practice
             else if (selectedChoice == 2)
             {
                 new Calc().toCalcSum();
+            }
+            else if (selectedChoice == 3)
+            {
+                new Fib().toCalcFib();
             }
             Console.ReadKey();
         }
